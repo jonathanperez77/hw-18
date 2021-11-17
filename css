@@ -53,3 +53,41 @@ display:flex;
     justify-content: space-between;
     padding-left: 10px;
  }
+ <!--  My UX Skills section coded using CSS flex -->
+
+ .flex-Container {
+    display: flex;
+    flex-direction: row;
+    width: 33px;
+  }
+ .Mywork {
+    display: flex;
+    flex-direction: row;
+    width: 33px;
+  }
+  .Mywork {
+        display: grid;
+        justify-content: center;
+  }
+  .workGrid {
+    display: grid;
+    justify-content: space-evenly;
+    grid-area: Mywork;
+    }
+    .grid-container {
+        display:grid;
+        grid-template-areas:'Mywork'
+        grid-template-rows: 30px 30px;
+        grid-template-columns: auto;
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+      }
+    @media only screen and (max-width: 600px) {
+        .flex-container{
+        flex-direction: column;
+        }
+          background-color: lightblue;
+    }
+    
